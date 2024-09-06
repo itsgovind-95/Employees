@@ -1,0 +1,64 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #00008B;
+}
+div {
+    width: 100%;
+    overflow: hidden;
+}
+form {
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+                rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input {
+    width: 250px;
+    height: 35px;
+    margin-bottom: 15px;
+    border: 1px solid #7FFFD4;
+    border-radius: 5px;
+    background-color: #E0FFFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+select {
+    width: 250px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: #E0FFFF;
+    border: 1px solid #7FFFD4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #C71585;
+}
+table {
+    float: right;
+    margin-right: 20px;
+}
+tr {
+    border-collapse: collapse;
+}
+tr > th{
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #00008B;
+    color: white;
+    
+}
